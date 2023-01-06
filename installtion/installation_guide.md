@@ -1,4 +1,28 @@
 
+## Azure CLI
+
+* When you use Azure CLI with Bicep, you have everything you need to deploy and decompile Bicep files. 
+* Azure CLI automatically installs the Bicep CLI when a command is executed that needs it.
+
+* You must have Azure CLI version 2.20.0 or later installed.
+
+__To verify your current version, run:__
+```
+az --version
+```
+
+__To validate your Bicep CLI installation, use:__
+```
+az bicep version
+```
+
+__To upgrade to the latest version, use:__
+
+```bash
+az bicep upgrade
+```
+
+
 ## Installation for apt(debian,ubuntu)
 
 |Distribution|Version|
